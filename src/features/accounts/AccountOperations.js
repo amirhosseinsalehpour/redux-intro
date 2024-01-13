@@ -17,7 +17,7 @@ function AccountOperations() {
     balance,
     isLoading,
   } = useSelector((store) => store.account);
-
+  console.log(balance);
   function handleDeposit() {
     if (!deposit) return;
     // dispatch(deposit(depositAmount, currency));
